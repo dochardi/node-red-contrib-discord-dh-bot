@@ -1,6 +1,6 @@
-# node-red-contrib-discord-advanced
+# node-red-contrib-discord-dh-bot
 
-[![npm version](https://badge.fury.io/js/node-red-contrib-discord-advanced.svg)](https://badge.fury.io/js/node-red-contrib-discord-advanced) ![](https://img.shields.io/static/v1?label=discord.js&message=14.11.0&color=brightgreen)
+[![npm version](https://d25lcipzij17d.cloudfront.net/badge.svg?id=js&r=r&ts=1683906897&type=6e&v=3.4.11&x2=0)](https://badge.fury.io/js/node-red-contrib-discord-dh-bot) ![](https://img.shields.io/static/v1?label=discord.js&message=14.11.0&color=brightgreen)
  ![](https://img.shields.io/static/v1?label=node&message=%3E=16.9.0&color=brightgreen) 
 
 Node-red nodes that allow you to interact with Discord, via [Discord.js](https://discord.js.org).
@@ -11,7 +11,7 @@ Currently the following actions are supported:
 * Send private messages to users.
 * Send and edit embed messages.
 * Add attachments to messages.
-* Edit, reply, delete messages in a channel.
+* Edit, reply, delete, info messages in a channel.
 * Publish messages to announcements channels.
 * React to messages with emojis.
 * Listen for reactions on a message.
@@ -22,11 +22,11 @@ Currently the following actions are supported:
 * Change channel's name.
 * Allow full control over the BOT by access to the DiscordJS client.
 
-This repository builds on [node-red-contrib-discord](https://github.com/jorisvddonk/node-red-contrib-discord) by Joris vd Donk . The main intention is to add more features and keep the repository updated.
+This repository builds on [node-red-contrib-discord](https://github.com/jorisvddonk/node-red-contrib-discord) by Joris vd Donk and [node-red-contrib-discord-advanced](https://github.com/Markoudstaal/node-red-contrib-discord-advanced) by javis86. The main intention is to add more features and keep the repository updated.
 
 ## Installation and documentation
 
-The [Wiki](https://github.com/Markoudstaal/node-red-contrib-discord-advanced/wiki) is still being written when it comes to documentation but you can find a guide on how to install and setup the nodes [here](https://github.com/Markoudstaal/node-red-contrib-discord-advanced/wiki/Installation-and-setup).
+The [Wiki](https://github.com/dochardi/node-red-contrib-discord-dh-bot/wiki) is still being written when it comes to documentation but you can find a guide on how to install and setup the nodes [here](https://github.com/dochardi/node-red-contrib-discord-dh-bot/wiki/Installation-and-setup).
 
 ## Nodes
 
@@ -40,6 +40,8 @@ node-red-contrib-discord-advanced gives you access to 8 nodes:
 * **discordInteraction** allows you to listen to commands, buttons and select menu interactions and to decide how to respond to them.
 * **discordChannelName** allows you to change a channel's name.
 * **discordMember** listens when a user joins or leaves a guild.
+* **discordTyping** Send Info That the bot Just start Typing.
+* **discordGetInfos** get all infos about the Selected guild and Members on That Guild.
 
 ## Changelog
 
@@ -51,11 +53,11 @@ See `CHANGELOG.md` for more info, including information regarding breaking chang
 
 A common error on some applications is getting empty payload when receiving messages on discordMessage. On 1st of September, Discord changed the way an application gets messages from channel. If you are having this problem try enabling "Message Content Intent" for your bot on Discord Developer Portal.
 
-![](https://raw.githubusercontent.com/Markoudstaal/node-red-contrib-discord-advanced/main/assets/message_content_intent.png)
+![](https://raw.githubusercontent.com/dochardi/node-red-contrib-discord-dh-bot/main/assets/message_content_intent.png)
 
 ## Support, issues and feature requests
 
-For support in setting up and feature requests you can contact me on [this](https://discord.gg/HPva4sjezt) discord.
+For support in setting up and feature requests you can contact me on [this](https://discord.com/invite/jpzK52W8) discord.
 Issues can also be reported there but prefferably via GitHub.
 
 ## Discord.js client sharing
