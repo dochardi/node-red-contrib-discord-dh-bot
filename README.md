@@ -1,6 +1,6 @@
 # node-red-contrib-discord-bot
 
-[![npm version](https://badge.fury.io/js/node-red-contrib-discord-advanced.svg)](https://badge.fury.io/js/node-red-contrib-discord-advanced) ![](https://img.shields.io/static/v1?label=discord.js&message=14.11.0&color=brightgreen)
+[![npm version](https://badge.fury.io/js/node-red-contrib-discord-dh-bot.svg)](https://badge.fury.io/js/node-red-contrib-discord-dh-bot) ![](https://img.shields.io/static/v1?label=discord.js&message=14.11.0&color=brightgreen)
  ![](https://img.shields.io/static/v1?label=node&message=%3E=16.9.0&color=brightgreen) 
 
 Node-red nodes that allow you to interact with Discord, via [Discord.js](https://discord.js.org).
@@ -26,7 +26,7 @@ This repository builds on [node-red-contrib-discord](https://github.com/jorisvdd
 
 ## Installation and documentation
 
-The [Wiki](https://github.com/dochardi/node-red-contrib-discord-bot/wiki) is still being written when it comes to documentation but you can find a guide on how to install and setup the nodes [here](https://github.com/dochardi/node-red-contrib-discord-bot/wiki/Installation-and-setup).
+The [Wiki](https://github.com/dochardi/node-red-contrib-discord-dh-bot/wiki) is still being written when it comes to documentation but you can find a guide on how to install and setup the nodes [here](https://github.com/dochardi/node-red-contrib-discord-dh-bot/wiki/Installation-and-setup).
 
 ## Nodes
 
@@ -52,7 +52,7 @@ See `CHANGELOG.md` for more info, including information regarding breaking chang
 
 A common error on some applications is getting empty payload when receiving messages on discordMessage. On 1st of September, Discord changed the way an application gets messages from channel. If you are having this problem try enabling "Message Content Intent" for your bot on Discord Developer Portal.
 
-![](https://raw.githubusercontent.com/Markoudstaal/node-red-contrib-discord-advanced/main/assets/message_content_intent.png)
+![](https://raw.githubusercontent.com/dochardi/node-red-contrib-discord-dh-bot/main/assets/message_content_intent.png)
 
 ## Support, issues and feature requests
 
