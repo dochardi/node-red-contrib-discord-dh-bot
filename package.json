@@ -1,5 +1,5 @@
 {
-  "name": "node-red-contrib-discord-bot",
+  "name": "node-red-contrib-discord-dh-bot",
   "version": "3.4.10",
   "description": "Recieve, send, edit, reply, react to and delete Discord messages, handle interactions and much more in Node-RED.",
   "main": "discord/discord.js",
@@ -27,9 +27,9 @@
     "flatted": "^3.2.5"
   },
   "bugs": {
-    "url": "https://github.com/dochardi/node-red-contrib-discord-bot/issues"
+    "url": "https://github.com/dochardi/node-red-contrib-discord-dh-bot/issues"
   },
-  "repository": "dochardi/node-red-contrib-discord-bot",
+  "repository": "dochardi/node-red-contrib-discord-dh-bot",
   "keywords": [
     "node-red"
   ],
